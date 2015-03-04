@@ -46,7 +46,7 @@ public final class DungeonBuilder extends AbstractMod
 
     public DungeonBuilder()
     {
-        super(DOMAIN);
+        super(DOMAIN, "DungeonBuilder");
     }
 
     @Mod.EventHandler
